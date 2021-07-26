@@ -31,7 +31,7 @@ const Home: React.FC = () => {
     <Container>
         <section>
             {data.map((prod, index) => (
-                    <div className="product-content" key={prod.id}>
+                <div className="product-content" key={prod.id}>
                     <img src={prod.photo} alt="iphone" width="200" height="auto" />
                     <h4>{prod.name}</h4>
                     <span>{prod.description}</span>
