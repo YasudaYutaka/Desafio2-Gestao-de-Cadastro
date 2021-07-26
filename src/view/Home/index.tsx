@@ -29,6 +29,17 @@ const Home: React.FC = () => {
 
   return (
     <Container>
+        <nav className="navbar">
+            <div className="navbar-logo">
+                <h2>Store</h2>
+            </div>
+            <div className="navbar-links">
+                <ul className="navbar-list">
+                    <li><a href=".cadastro">Cadastro</a></li>
+                    <li><a href=".product-content">Produtos</a></li>
+                </ul>
+            </div>
+        </nav>
         <section>
             {data.map((prod, index) => (
                 <div className="product-content" key={prod.id}>

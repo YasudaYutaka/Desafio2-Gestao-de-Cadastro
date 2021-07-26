@@ -13,6 +13,27 @@
             "name": "Galaxy",
             "description": "Descricao do produto",
             "price": 3000
-        }
+        },
+        {
+            "id": 3,
+            "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=572&hei=572&fmt=jpeg",
+            "name": "Asus",
+            "description": "Descricao",
+            "price": 1900
+        },
+        {
+            "id": 4,
+            "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=572&hei=572&fmt=jpeg",
+            "name": "Rog",
+            "description": "Descricao",
+            "price": 1900
+        },
+        {
+            "id": 5,
+            "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=572&hei=572&fmt=jpeg",
+            "name": "Xiaomi",
+            "description": "Descricao",
+            "price": 1900
+        },
     ]
 }
